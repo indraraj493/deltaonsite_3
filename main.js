@@ -72,3 +72,12 @@
      first=false;
      }
      }
+function changeSize(){
+          console.log('hi');
+          var arr =[
+              "red","green","yellow","brown"
+          ]   ;  
+ var change =document.getElementById('p');
+    change.style.backgroundColor =arr[Math.floor(Math.random() * 4)];
+     }
+      
